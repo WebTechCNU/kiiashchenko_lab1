@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Моє портфоліо</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top border-bottom">
+            <div class="container">
+                <a class="navbar-brand" href="#">Мій веб-сайт</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#about">Про мене</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#experience">Досвід</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#education">Навчання</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contacts">Контакти</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section id="about" class="bg-light py-5 mt-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <a href="#aboutme"></a>
+                    <h2 class="display-3 font-weight-bold mb-4">Про мене</h2>
+                    <!-- Місце для вказівки професії -->
+                    <p class="display-4">Кіященко Михайло,<br> Back-end розробник.</p>
+                    <!-- Тут можна додати свою інформацію -->
+                    <p>Перспективний та завзятий студент, який заслуговує бали за цю лабораторну. На данний момент
+                        розвиваюсь всебічно. Швидко поглинаю досвід.</p>
+                </div>
+                <div class="col-md-6 d-flex justify-content-end align-items-center">
+                    <!-- Вставте фото тут -->
+                    <img src="img/profile.jpg" alt="Моя фотографія" class="img-fluid"
+                        style="max-width: 300px; border-radius: 20px;">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="experience" class="py-5">
+        <div class="container">
+            <a href="#exp"></a>
+            <h2 class="display-3 font-weight-bold mb-4">Досвід</h2>
+            <div class="row">
+                <div class="col-md-4 mycol">
+                    <div class="text-center mb-4">
+                        <img src="img/java.svg" alt="Java" class="img-fluid mb-3" style="height: 428px;">
+                        <div class="myborder">
+                            <p>Глубоке знання Java. Вміння використовувати та застосовувати різні дизайн паттерни,
+                                роботи із реляційними та нереляційними БД</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mycol">
+                    <div class="text-center mb-4">
+                        <img src="img/c++.svg" alt="Java" class="img-fluid mb-3" style="height: 428px;">
+                        <div class="myborder">
+                            <p>Поверхневе знання принципів ООП. Вміння створення та застосовування шаблонних функцій та
+                                класів.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 mycol">
+                    <div class="text-center mb-4">
+                        <img src="img/go.svg" alt="Java" class="img-fluid mb-3" style="height: 428px;">
+                        <div class="myborder">
+                            <p>Поверхневе знання Go. Вміння створення та застосовування шаблонних функцій та класів.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="education" class="py-5">
+        <div class="container">
+            <h2 class="display-3 font-weight-bold mb-4">Навчання</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>Університет</h3>
+                    <p>Чернівецький національний університет імені Юрія Федьковича. Бакалавр ОП 124 "Системний аналіз"
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Курс зі Ш++</h3>
+                    <p>Комп'ютерні науки (за Стенфордським курсом). Формат peer-to-peer.</p>
+                    <ul>
+                        <li>Графічні програми та анімації</li>
+                        <li>Рядки, файли та масиви</li>
+                        <li>Робота із зображеннями та аудіо-файлами</li>
+                        <li>Інтерактивні інтерфейси та графіки</li>
+                        <li>Асоціативні масиви</li>
+                        <li>ООП</li>
+                        <li>Парсинг рядків</li>
+                        <li>Введення в алгоритми на графах</li>
+                        <li>Колекції та основи тестування</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <div class="container mb-5">
+        <h3 class="feature-title">Get in Touch!</h3>
+        <div class="form-group">
+            <input type="text" class="form-control" placeholder="Name" name="">
+        </div>
+        <div class="form-group">
+            <input type="email" class="form-control" placeholder="Email Address" name="email">
+        </div>
+        <div class="form-group">
+            <textarea class="form-control" rows="4"></textarea>
+        </div>
+        <input type="submit" class="btn btn-secondary btn-block" value="Send" name="">
+    </div>
+
+
+
+    <footer class="bg-dark text-white py-4" id="contacts">
+        <div class="container text-center">
+            <h5>Контакти</h5>
+            <!-- <p>Тут можна вказати ваші контактні дані</p> -->
+            <a class="footer-top-email-link" href="mailto:kiiashchenko.mykhailo@chnu.edu.ua"
+                style="color: aquamarine;">Email:
+                kiiashchenko.mykhailo@chnu.edu.ua<i class="bi bi-arrow-up-right px-3"></i></a>
+            <p>Телефон: +380996402314</p>
+        </div>
+    </footer>
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- Підключення JS Bootstrap -->
+</body>
+
+</html>
